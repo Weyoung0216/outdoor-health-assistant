@@ -29,3 +29,4 @@ model/bge-reranker-v2-m3/
 
 # 其他
 .DS_Store
+.streamlit/secrests.toml
