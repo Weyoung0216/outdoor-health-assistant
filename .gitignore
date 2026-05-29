@@ -1,0 +1,31 @@
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 密钥和本地配置
+.streamlit/secrets.toml
+config/agent.yml
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 向量数据库（本地数据，不需要上传）
+chroma_db/
+long_term_memory/
+md5.text
+
+# 日志
+logs/
+
+# IDE 设置
+.idea/
+.vscode/
+
+# 模型文件（太大）
+model/bge-reranker-v2-m3/
+
+# 其他
+.DS_Store
